@@ -68,3 +68,23 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### If app can not run 
+To run the app please create a file in my-app directory called ".env.local" if it's not there
+Copy and paste following into it:
+
+REACT_APP_FIREBASE_API_KEY = AIzaSyBblR-HzoIdZa0-MGcas-IJtppLbFKE5H0
+
+REACT_APP_FIREBASE_AUTH_DOMAIN = enrollable-9a105.firebaseapp.com
+
+REACT_APP_FIREBASE_DATABASE_URL = https://enrollable-9a105-default-rtdb.firebaseio.com
+
+REACT_APP_FIREBASE_PROJECT_ID = enrollable-9a105
+
+REACT_APP_FIREBASE_STORAGE_BUCKET = enrollable-9a105.appspot.com
+
+REACT_APP_FIREBASE_MESSAGING_SENDER_ID = 811071981252
+
+REACT_APP_FIREBASE_APP_ID = 1:811071981252:web:769374920893ae2f7cab91
+
+REACT_APP_FIREBASE_MEASUREMENT_ID = G-X69HK0FGL9
